@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="title">广场</view>
+  <view class="flow">
+    <view class="list" wx:for="{{data}}" wx:key="id" style="{{item.style}}">
+      <view class="item">
+        <image class="bg" mode="widthFix" src="{{item.url}}" />
+        <view class="info">
+          <view class="pad">
+            <view class="user">
+              <image class="avatar" src="../../static/img/avatar.jpg" />
+              <span class="name">{{item.name}}</span>
+            </view>
+            <view class="date">
+              <span>{{item.date}}</span>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

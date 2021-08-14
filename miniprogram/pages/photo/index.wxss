@@ -1,0 +1,58 @@
+.container {
+  margin: 0 20px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.title {
+  color: #fff;
+  font-size: 35px;
+}
+
+.list {
+  margin-top: 25px;
+  background: #4E4F53;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.list .item {
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list .item .icon {
+  width: 31px;
+  height: 31px;
+  margin-right: 15px;
+}
+
+.list .item .name {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.list .item .date {
+  font-size: 14px;
+}
+
+.suspension {
+  position: absolute;
+  right: 25px;
+  bottom: 100px;
+  background: #707070;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suspension image {
+  width: 35px;
+  height: 35px;
+}

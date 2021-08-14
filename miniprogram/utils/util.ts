@@ -1,19 +1,12 @@
-export const formatTime = (date: Date) => {
-  const year = date.getFullYear()
-  const month = date.getMonth() + 1
-  const day = date.getDate()
-  const hour = date.getHours()
-  const minute = date.getMinutes()
-  const second = date.getSeconds()
-
-  return (
-    [year, month, day].map(formatNumber).join('/') +
-    ' ' +
-    [hour, minute, second].map(formatNumber).join(':')
-  )
+/**
+ * 加载网络字体{ 苹方字体 }
+ */
+const loadFontFace = () => {
+  wx.loadFontFace({
+    family: 'PingFangSC-Medium',
+    source: 'url("https://www.qblog.cc/PingFangSC-Medium.ttf")',
+  })
 }
-
-const formatNumber = (n: number) => {
-  const s = n.toString()
-  return s[1] ? s : '0' + s
+export {
+  loadFontFace
 }

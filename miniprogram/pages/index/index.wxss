@@ -1,19 +1,84 @@
-/**index.wxss**/
-.userinfo {
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+
+.main .title {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.main .title .major {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.main .title .secondary {
+  font-size: 20px;
+}
+
+.main .subtitle {
+  color: #8A8A8A;
+  font-size: 18px;
+}
+
+.main .subtitle>view {
+  margin-bottom: 10px;
+}
+
+.main .subtitle>view:last-child {
+  margin-bottom: 50px;
+}
+
+.main .button {
+  color: #fff;
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 21px;
+}
+
+.main .button>view {
+  display: flex;
   align-items: center;
-  color: #aaa;
+  justify-content: center;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.main .button .create {
+  background: #A1A2A7;
+  border-radius: 31px;
+  width: 234px;
+  height: 62px;
+  margin-bottom: 40px;
 }
 
-.usermotto {
-  margin-top: 200px;
+.main .button .join {
+  border-radius: 31px;
+  border: 1px solid #A1A2A7;
+  width: 234px;
+  height: 62px;
+}
+
+.main .button .icon {
+  margin-right: 6px;
+}
+
+.main .button .create .icon {
+  width: 24px;
+  height: 22px;
+}
+
+.main .button .join .icon {
+  width: 25px;
+  height: 24px;
 }
