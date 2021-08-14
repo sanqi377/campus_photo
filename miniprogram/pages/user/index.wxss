@@ -1,0 +1,133 @@
+.container {
+  margin: 0 20px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.title {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.user-card {
+  padding: 20px 15px;
+  background: #4E4F53;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.setting-card {
+  padding: 20px 15px;
+  background: #4E4F53;
+  border-radius: 8px;
+  color: #fff;
+  height: 50vh;
+}
+
+.setting-card .item {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #707070;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-card .item .project {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.setting-card .item .project image {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.setting-card .item .icon image {
+  width: 17px;
+  height: 17px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+}
+
+.info .avatar {
+  width: 20%;
+}
+
+.info .item {
+  width: 80%;
+}
+
+.info .name {
+  font-size: 22px;
+  color: #fff;
+}
+
+.info .dsc {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: #707070;
+}
+
+.info .avatar image {
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+}
+
+.info .progress {
+  position: relative;
+  width: 100%;
+}
+
+.info .progress>view {
+  position: absolute;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.info .progress .used {
+  width: 30%;
+  background: #fff;
+  z-index: 2;
+}
+
+.info .progress .not-used {
+  width: 100%;
+  background: #707070;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #707070;
+  margin: 18px 0;
+}
+
+.data {
+  color: #fff;
+  display: flex;
+  width: 100%;
+}
+
+.data>view {
+  width: 25%;
+  text-align: center;
+}
+
+.data .num {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.data .name {
+  font-size: 14px;
+}

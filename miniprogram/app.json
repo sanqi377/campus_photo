@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/square/index",
-    "pages/photo/index"
+    "pages/photo/index",
+    "pages/user/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

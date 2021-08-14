@@ -23,6 +23,12 @@
           "pathName": "pages/square/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/user/index",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
         }
       ]
     }
