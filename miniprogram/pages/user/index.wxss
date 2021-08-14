@@ -22,7 +22,7 @@
   background: #4E4F53;
   border-radius: 8px;
   color: #fff;
-  height: 50vh;
+  height: 47vh;
 }
 
 .setting-card .item {
