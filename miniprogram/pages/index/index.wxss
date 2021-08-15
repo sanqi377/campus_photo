@@ -82,3 +82,60 @@
   width: 25px;
   height: 24px;
 }
+
+.poppus {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, .15);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.poppus .content {
+  width: 240px;
+  height: 220px;
+}
+
+.poppus .content .title {
+  text-align: center;
+  font-size: 22px;
+}
+
+.poppus .content .btn-group {
+  margin: 25px 0;
+}
+
+.poppus .content .btn-group>view {
+  border: 1px solid #87898E;
+  border-radius: 30px;
+  padding: 15px 0;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poppus .content .btn-group view:first-child image {
+  margin-top: 2px;
+}
+
+.poppus .content .btn-group image {
+  width: 23px;
+  height: 23px;
+  margin-right: 7px;
+}
+
+.poppus .content .btn-group .scan-code {
+  margin-bottom: 30px;
+}
+
+.mask-layer {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#37393D, #0F131B);
+}

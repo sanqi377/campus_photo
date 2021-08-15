@@ -8,15 +8,15 @@
   <view class="form">
     <view class="label">名称</view>
     <view class="val">
-      <input type="text" bindinput="getTitle"/>
+      <input type="text" bindinput="getTitle" />
     </view>
     <view class="label">权限</view>
     <view class="val">
-      <input type="text" bindinput="getTitle"/>
+      <input type="text" bindinput="getTitle" />
     </view>
     <view class="label">主题</view>
     <view class="val">
-      <input type="text" bindinput="getTitle"/>
+      <input type="text" bindinput="getTitle" />
     </view>
   </view>
   <view class="btn">

@@ -3,8 +3,24 @@ var util = require('../../utils/util')
 
 Page({
   data: {
+    show: false
   },
-
+  /**
+   * click `加入相册` 改变 show `true`
+   */
+  joinPhoto() {
+    this.setData({
+      show: true
+    })
+  },
+  /**
+   * click `遮罩层` 改变 show `false`
+   */
+  hideJoin(){
+    this.setData({
+      show: false
+    })
+  },
   onLoad() {
     /**
      * 加载网络字体

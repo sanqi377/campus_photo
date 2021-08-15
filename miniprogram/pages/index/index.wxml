@@ -14,9 +14,27 @@
         <image class="icon" src="../../static/icon/create.png" />
         <span>创建相册</span>
       </view>
-      <view class="join">
+      <view class="join" bindtap="joinPhoto">
         <image class="icon" src="../../static/icon/join.png" />
         <span>加入相册</span>
+      </view>
+    </view>
+  </view>
+  <!-- 背景遮罩层 -->
+  <view class="mask-layer" style="display:{{show?'block':'none'}}" bindtap="hideJoin"></view>
+  <!-- 加入相册弹窗 -->
+  <view class="poppus" style="display:{{show?'block':'none'}}">
+    <view class="content">
+      <view class="title">加入相册</view>
+      <view class="btn-group">
+        <view class="scan-code">
+          <image src="../../static/icon/ewm.png"></image>
+          <span>扫码加入</span>
+        </view>
+        <view class="fill-in">
+          <image src="../../static/icon/fill.png"></image>
+          <span>填码加入</span>
+        </view>
       </view>
     </view>
   </view>
