@@ -3,22 +3,33 @@ var util = require('../../utils/util')
 
 Page({
   data: {
-    show: false
+    showPoppus: false, // 是否显示加入相册层
+    showEnterCode: false // 是否显示输入相册码层
   },
   /**
-   * click `加入相册` 改变 show `true`
+   * click `加入相册` 改变 showPoppus `true`
    */
   joinPhoto() {
     this.setData({
-      show: true
+      showPoppus: true
     })
   },
   /**
-   * click `遮罩层` 改变 show `false`
+   * click `遮罩层` 改变 showPoppus `false`
    */
-  hideJoin(){
+  hideJoin() {
     this.setData({
-      show: false
+      showPoppus: false,
+      showEnterCode: false
+    })
+  },
+  /**
+   * click `输入相册码` 改变 showEnterCode `true`
+   */
+  showEnterCode() {
+    this.setData({
+      showPoppus: false,
+      showEnterCode: true
     })
   },
   onLoad() {

@@ -1,4 +1,5 @@
 <view class="container">
+  <!-- 主体内容 -->
   <view class="main">
     <view class="title">
       <view class="major">共享美好瞬间</view>
@@ -21,9 +22,9 @@
     </view>
   </view>
   <!-- 背景遮罩层 -->
-  <view class="mask-layer" style="display:{{show?'block':'none'}}" bindtap="hideJoin"></view>
+  <view class="mask-layer" style="display:{{showPoppus || showEnterCode?'block':'none'}}" bindtap="hideJoin"></view>
   <!-- 加入相册弹窗 -->
-  <view class="poppus" style="display:{{show?'block':'none'}}">
+  <view class="poppus" style="display:{{showPoppus?'block':'none'}}">
     <view class="content">
       <view class="title">加入相册</view>
       <view class="btn-group">
@@ -31,11 +32,15 @@
           <image src="../../static/icon/ewm.png"></image>
           <span>扫码加入</span>
         </view>
-        <view class="fill-in">
+        <view class="fill-in" bindtap="showEnterCode">
           <image src="../../static/icon/fill.png"></image>
           <span>填码加入</span>
         </view>
       </view>
     </view>
+  </view>
+  <!-- 输入相册码层-->
+  <view class="enter-code" style="display:{{showEnterCode?'block':'none'}}">
+    <keyboard />
   </view>
 </view>

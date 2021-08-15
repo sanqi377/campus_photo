@@ -1,0 +1,51 @@
+.main {
+  width: 320px;
+  height: 310px;
+  background: rgba(255, 255, 255, .15);
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.enter {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.enter>view {
+  display: flex;
+  width: 16%;
+  justify-content: center;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin: 0 5px;
+}
+
+.keyboard {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.keyboard>view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  margin: 15px 0;
+}
+
+.enter>view .num {
+  height: 30px;
+}
+
+.keyboard image {
+  width: 31px;
+  height: 31px;
+}
