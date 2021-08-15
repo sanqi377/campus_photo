@@ -18,4 +18,12 @@ Page({
       })
     }
   },
+  /**
+   * 跳转到创建相册页面
+   */
+  navigateTo: () => {
+    wx.navigateTo({
+      url: '/pages/photo/create/index',
+    })
+  }
 })

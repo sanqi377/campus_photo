@@ -10,7 +10,7 @@
       <view>永不过期</view>
     </view>
     <view class="button">
-      <view class="create">
+      <view class="create" bindtap="navigateTo">
         <image class="icon" src="../../static/icon/create.png" />
         <span>创建相册</span>
       </view>

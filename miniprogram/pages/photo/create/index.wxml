@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="back" bindtap="back">
+    <image src="../../../static/icon/back.png"></image>
+  </view>
+  <view class="logo">
+    <image src="../../../static/icon/files.png"></image>
+  </view>
+  <view class="form">
+    <view class="label">名称</view>
+    <view class="val">
+      <input type="text" bindinput="getTitle"/>
+    </view>
+    <view class="label">权限</view>
+    <view class="val">
+      <input type="text" bindinput="getTitle"/>
+    </view>
+    <view class="label">主题</view>
+    <view class="val">
+      <input type="text" bindinput="getTitle"/>
+    </view>
+  </view>
+</view>

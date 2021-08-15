@@ -13,12 +13,6 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/photo/index",
-          "pathName": "pages/photo/index",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/square/index",
           "pathName": "pages/square/index",
           "query": "",
@@ -27,6 +21,12 @@
         {
           "name": "pages/user/index",
           "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/photo/create/index",
+          "pathName": "pages/photo/create/index",
           "query": "",
           "scene": null
         }

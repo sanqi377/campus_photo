@@ -2,8 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/square/index",
-    "pages/photo/index",
-    "pages/user/index"
+    "pages/photo/index/index",
+    "pages/user/index",
+    "pages/photo/create/index"
   ],
   "tabBar": {
     "custom": true,
@@ -20,7 +21,7 @@
         "text": "动态"
       },
       {
-        "pagePath": "pages/photo/index",
+        "pagePath": "pages/photo/index/index",
         "text": "相册"
       },
       {

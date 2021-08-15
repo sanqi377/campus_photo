@@ -17,7 +17,7 @@ Component({
         "text": "动态"
       },
       {
-        "pagePath": "/pages/photo/index",
+        "pagePath": "/pages/photo/index/index",
         "iconPath": "../static/icon/create.png",
         "selectedIconPath": "../static/icon/create.png",
         "text": "相册"
@@ -37,7 +37,6 @@ Component({
       const data = e.currentTarget.dataset
       const url = data.path
       wx.switchTab({ url })
-      console.log(data.index)
       this.setData({
         selected: data.index
       })

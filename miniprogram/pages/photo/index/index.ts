@@ -1,4 +1,4 @@
-var util = require('../../utils/util')
+var util = require('../../../utils/util')
 
 Page({
   data: {

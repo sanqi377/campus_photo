@@ -3,13 +3,13 @@
   <view class="list">
     <view class="item">
       <view class="name">
-        <image class="icon" src="../../static/icon/file.png" />
+        <image class="icon" src="../../../static/icon/file.png" />
         <span>学习资料</span>
       </view>
       <view class="date">24 / JUN / 2021</view>
     </view>
   </view>
   <view class="suspension">
-    <image src="../../static/icon/new.png" />
+    <image src="../../../static/icon/new.png" />
   </view>
 </view>
